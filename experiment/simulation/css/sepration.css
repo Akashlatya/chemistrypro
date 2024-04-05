@@ -1,0 +1,210 @@
+/* You CSS goes in here */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  background-color: #f3e1e1;
+
+}
+
+#instruction {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  height: 6.4%;
+  font-family: "Croissant One", cursive;
+  color: darkblue;
+  background-color: #cbd3e3;
+  font-size: 25px;
+}
+
+
+
+#sep-funnol {
+
+  transition: all;
+  height: 60%;
+  width: 15%;
+  position: absolute;
+  left: 30%;
+  top: 18%;
+  visibility: visible;
+  transition-duration: 1s;
+  animation: 1s ease-in-out infinite;
+}
+
+#step {
+  box-sizing: border-box;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding-left: 5px;
+  font-size: 24px;
+  font-family: "Croissant One", cursive;
+  color: blueviolet;
+}
+
+
+#emt-flask1 {
+  cursor: pointer;
+  transition: all;
+  height: 23%;
+  width: 7%;
+  position: absolute;
+  left: 53%;
+  top: 55%;
+  opacity: 100;
+  transition-duration: 1s;
+  animation: 1s ease-in-out infinite;
+}
+
+
+#backg {
+  height: 93%;
+  width: 100%;
+  position: absolute;
+  background-size: cover;
+}
+
+#lab {
+  width: 100%;
+  height: 100%;
+}
+
+#aqus-flask {
+  cursor: pointer;
+  transition: all;
+  height: 23%;
+  width: 7%;
+  position: absolute;
+  left: 35%;
+  top: 55%;
+  opacity: 0;
+  transition-duration: 1s;
+  animation: 1s ease-in-out infinite;
+}
+
+
+
+
+#emt-flask2 {
+  cursor: pointer;
+  transition: all;
+  height: 23%;
+  width: 7%;
+  position: absolute;
+  left: 63%;
+  top: 55%;
+  opacity: 100;
+  transition-duration: 1s;
+  animation: 1s ease-in-out infinite;
+}
+
+
+
+#org-flask {
+  cursor: pointer;
+  transition: all;
+  height: 23%;
+  width: 7%;
+  position: absolute;
+  left: 63%;
+  top: 55%;
+  opacity: 0;
+  transition-duration: 1s;
+  animation: 1s ease-in-out infinite;
+}
+
+
+#knob {
+  cursor: pointer;
+  transition: all;
+  height: 4%;
+  width: 5%;
+  position: relative;
+  left: 36%;
+  top: 37%;
+  opacity: 0;
+  transition-duration: 1s;
+  animation: 1s ease-in-out infinite;
+  background-color: #da1d1d;
+}
+
+
+
+
+#ppt1 {
+  cursor: pointer;
+  transition: all;
+  height: 1.7%;
+  width: 12%;
+  position: absolute;
+  left: 20%;
+  top: 70%;
+  opacity: 100;
+  transition-duration: 1s;
+  animation: 1s ease-in-out infinite;
+}
+
+#ppt2 {
+  cursor: pointer;
+  transition: all;
+  height: 1.7%;
+  width: 12%;
+  position: absolute;
+  left: 20%;
+  top: 70%;
+  opacity: 0;
+  transition-duration: 1s;
+  animation: 1s ease-in-out infinite;
+}
+
+.drp img {
+  cursor: pointer;
+  transition: all;
+  height: 5%;
+  width: 1.2%;
+  position: absolute;
+  left: 38%;
+  top: 54%;
+  opacity: 0;
+  transition-duration: 1s;
+  animation: 1s ease-in-out infinite;
+}
+
+#dwater {
+  cursor: pointer;
+  transition: all;
+  height: 23%;
+  width: 8.5%;
+  position: absolute;
+  left: 35%;
+  top: 55%;
+  opacity: 0;
+  transition-duration: 1s;
+  animation: 1s ease-in-out infinite;
+}
+
+
+#sepration a {
+  text-decoration: none;
+  left: 87%;
+  top: 93%;
+  color: rgb(190, 207, 203);
+  position: absolute;
+  font-size: larger;
+  font-weight: 1000;
+  font-family: "Croissant One", cursive;
+  visibility: hidden;
+  /* background-color: #bcead8; */
+  /* border-radius: 10%; */
+}
